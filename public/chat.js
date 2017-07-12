@@ -1,4 +1,4 @@
-var socket = io.connect('https://newchat07.herokuapp.com:37256');
+var socket = io.connect('https://newchat07.herokuapp.com:process.env.PORT || 5000');
 
 var message=document.getElementById('message');
 var naam=prompt("Enter Your Name");
