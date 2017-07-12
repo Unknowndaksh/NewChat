@@ -1,4 +1,4 @@
-var socket = io.connect('https://blooming-escarpment-31686.herokuapp.com');
+var socket = io.connect('https://blooming-escarpment-31686.herokuapp.com:37256');
 
 var message=document.getElementById('message');
 var naam=prompt("Enter Your Name");
