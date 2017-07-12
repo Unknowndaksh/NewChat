@@ -1,9 +1,9 @@
 var express=require('express');
 var app=express();
 var socket=require('socket.io');
-var server=app.listen(37256,function()
+var server=app.listen(process.env.PORT || 5000,function()
 {
-console.log("Server Started at Port"+37256);
+console.log("Server Started at Port "+process.env.PORT || 5000);
 });
 
 //Static Files
